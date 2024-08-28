@@ -1,7 +1,11 @@
-export const responseData = (data: any, message: string, status: number) => {
+export const responseData = (
+  data: any,
+  message: string,
+  statusCode: number,
+) => {
   return {
     data,
     message,
-    status,
+    statusCode,
   };
 };
